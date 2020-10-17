@@ -55,7 +55,7 @@ public class PersonaController : ControllerBase
         var persona = new Persona
         {
             Identificacion = personaInput.Identificacion,
-            Nombres = personaInput.Nombres,
+            Nombre = personaInput.Nombre,
             Sexo = personaInput.Sexo,
             Edad = personaInput.Edad,
             Departamento = personaInput.Departamento,

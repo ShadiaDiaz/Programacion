@@ -24,7 +24,7 @@ namespace Bll
                 _connection.Open();
                 if (_repositorio.BuscarPersona(persona.Identificacion) == null)
                 {
-                    if ((_repositorio.TotalAyudas() + persona.ValorApoyo) > 60000000)
+                    if ((_repositorio.SumaAyudas() + persona.ValorApoyo) > 60000000)
                     {
                         mensaje = "Error: El ValorApoyo de las ayudas se excede. ";
                         _connection.Close();
@@ -56,19 +56,12 @@ namespace Bll
         {
             decimal total= 0;
             _connection.Open();
-            total = _repositorio.TotalAyudas();
+            total = _repositorio.SumaAyudas();
             _connection.Close();
             return total;
         }
 
-        public int AyudasTotales()
-        {
-            int totalayudas = 0;
-            _connection.Open();
-            totalayudas = _repositorio.AyudaTotales();
-            _connection.Close();
-            return totalayudas;
-        }
+       
 
         public PersonaConsultaResponse Consultar()
         {

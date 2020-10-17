@@ -1097,11 +1097,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\xshad\\Desktop\\ParcialDo\\PrimerParcialProg\\Bll\\Bll.csproj",
+      "projectUniqueName": "C:\\Users\\xshad\\Desktop\\Programacion\\Bll\\Bll.csproj",
       "projectName": "Bll",
-      "projectPath": "C:\\Users\\xshad\\Desktop\\ParcialDo\\PrimerParcialProg\\Bll\\Bll.csproj",
+      "projectPath": "C:\\Users\\xshad\\Desktop\\Programacion\\Bll\\Bll.csproj",
       "packagesPath": "C:\\Users\\xshad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\xshad\\Desktop\\ParcialDo\\PrimerParcialProg\\Bll\\obj\\",
+      "outputPath": "C:\\Users\\xshad\\Desktop\\Programacion\\Bll\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1120,11 +1120,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\xshad\\Desktop\\ParcialDo\\PrimerParcialProg\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\xshad\\Desktop\\ParcialDo\\PrimerParcialProg\\DAL\\DAL.csproj"
+            "C:\\Users\\xshad\\Desktop\\Programacion\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\xshad\\Desktop\\Programacion\\DAL\\DAL.csproj"
             },
-            "C:\\Users\\xshad\\Desktop\\ParcialDo\\PrimerParcialProg\\Entity\\Entity.csproj": {
-              "projectPath": "C:\\Users\\xshad\\Desktop\\ParcialDo\\PrimerParcialProg\\Entity\\Entity.csproj"
+            "C:\\Users\\xshad\\Desktop\\Programacion\\Entity\\Entity.csproj": {
+              "projectPath": "C:\\Users\\xshad\\Desktop\\Programacion\\Entity\\Entity.csproj"
             }
           }
         }
@@ -1155,7 +1155,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

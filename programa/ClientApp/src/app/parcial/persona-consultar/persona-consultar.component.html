@@ -10,8 +10,7 @@
     <tr>
     <th scope="col">#</th>
     <th scope="col">identificación</th>
-    <th scope="col">Nombre </th>
-    <th scope="col">Apellido </th>
+    <th scope="col">nombres </th>
     <th scope="col">sexo</th>
     <th scope="col">Edad</th>
     <th scope="col">Departamento </th>
@@ -24,8 +23,7 @@
     <tr *ngFor="let persona of personas; index as i ">
     <th scope="row">{{ i + 1 }}</th>
     <td>{{ persona.identificacion }} </td>
-    <td>{{ persona.nombre }}</td>
-    <td>{{ persona.apellido }}</td>
+    <td>{{ persona.nombres }}</td>
     <td>{{persona.sexo }}</td>
     <td>{{ persona.edad }}</td>
     <td>{{ persona.departamento }}</td>
@@ -34,3 +32,8 @@
     </tr>
     </tbody>
     </table>
+
+    <div class="form-group">
+        <label>Total del ValorApoyo</label>
+        <label value="{{Suma}}"> </label>
+    </div>

@@ -10,7 +10,8 @@ import {PersonaService } from './../../services/persona.service'
 export class PersonaConsultarComponent implements OnInit {
   personas:Persona[];
   searchText:string;
-
+  suma: string ="" ;
+  
   constructor(private personaService : PersonaService) { }
 
   ngOnInit() {

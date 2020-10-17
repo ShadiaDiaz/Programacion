@@ -6,7 +6,7 @@ namespace Programa.Models
     public class PersonaInputModel
     {
         public string Identificacion { get; set; }
-        public string Nombres { get; set; }
+        public string Nombre { get; set; }
         public string Sexo { get; set; }
         public int Edad { get; set; }
         public string Departamento { get; set; }
@@ -26,7 +26,7 @@ namespace Programa.Models
         public PersonaViewModel(Persona persona)
         {
             Identificacion = persona.Identificacion;
-            Nombres = persona.Nombres;
+            Nombre = persona.Nombre;
             Sexo = persona.Sexo;
             Edad = persona.Edad;
             Departamento = persona.Departamento;

@@ -22,9 +22,9 @@ namespace DAL
             using(var command = _connection.CreateCommand())
             {
                 command.CommandText = "INSERT INTO Personas(Identificacion,Nombre,Sexo,Edad,Departamento,Ciudad,ValorApoyo,Modalidad,Fecha)Values"+
-                    "(@Identificacion,@Nombres,@Sexo,@Edad,@Departamento,@Ciudad,@ValorApoyo,@Modalidad,@Fecha)";
+                    "(@Identificacion,@Nombre,@Sexo,@Edad,@Departamento,@Ciudad,@ValorApoyo,@Modalidad,@Fecha)";
                 command.Parameters.AddWithValue("@Identificacion", persona.Identificacion);
-                command.Parameters.AddWithValue("@Nombres", persona.Nombres);
+                command.Parameters.AddWithValue("@Nombre", persona.Nombre);
                 command.Parameters.AddWithValue("@Sexo", persona.Sexo);
                 command.Parameters.AddWithValue("@Edad", persona.Edad);
                 command.Parameters.AddWithValue("@Departamento", persona.Departamento);
@@ -61,7 +61,7 @@ namespace DAL
             if(!dataReader.HasRows) return null;
             Persona persona = new Persona();
             persona.Identificacion = (string)dataReader["Identificacion"];
-            persona.Nombres = (string)dataReader["Nombres"];
+            persona.Nombre = (string)dataReader["Nombre"];
             persona.Sexo = (string)dataReader["Sexo"];
             persona.Edad = (int)dataReader["Edad"];
             persona.Departamento = (string)dataReader["Departamento"];
@@ -72,16 +72,12 @@ namespace DAL
             return persona;
         }
 
-        public decimal TotalAyudas()
+        public decimal SumaAyudas()
         {
             return Consultar().Sum(p =>p.ValorApoyo);
         }
 
-        public int AyudaTotales()
-        {
-            return Consultar().Count;
-        }
-
+        
         public Persona BuscarPersona(string id)
         {
             return Consultar().Find(p => p.Identificacion == id);
