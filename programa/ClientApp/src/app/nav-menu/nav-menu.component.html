@@ -1,0 +1,22 @@
+<header>
+  <nav class="navbar navbar-expand-lg " Style="background-color: crimson;">
+    <a class="navbar-brand text-white"><b> Emergencia Covid</b> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-white" [routerLink]="['/Home']">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" [routerLink]="['/personaRegistro']">Registrar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" [routerLink]="['/personaConsulta']" routerLinkActive="router-link-active" >Consultar</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>

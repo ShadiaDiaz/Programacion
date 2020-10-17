@@ -1,0 +1,13 @@
+C:\Users\xshad\Desktop\ParcialDo\PrimerParcialProg\Bll\bin\Debug\netstandard2.0\Bll.deps.json
+C:\Users\xshad\Desktop\ParcialDo\PrimerParcialProg\Bll\bin\Debug\netstandard2.0\Bll.dll
+C:\Users\xshad\Desktop\ParcialDo\PrimerParcialProg\Bll\bin\Debug\netstandard2.0\Bll.pdb
+C:\Users\xshad\Desktop\ParcialDo\PrimerParcialProg\Bll\bin\Debug\netstandard2.0\DAL.dll
+C:\Users\xshad\Desktop\ParcialDo\PrimerParcialProg\Bll\bin\Debug\netstandard2.0\Entity.dll
+C:\Users\xshad\Desktop\ParcialDo\PrimerParcialProg\Bll\bin\Debug\netstandard2.0\DAL.pdb
+C:\Users\xshad\Desktop\ParcialDo\PrimerParcialProg\Bll\bin\Debug\netstandard2.0\Entity.pdb
+C:\Users\xshad\Desktop\ParcialDo\PrimerParcialProg\Bll\obj\Debug\netstandard2.0\Bll.csprojAssemblyReference.cache
+C:\Users\xshad\Desktop\ParcialDo\PrimerParcialProg\Bll\obj\Debug\netstandard2.0\Bll.AssemblyInfoInputs.cache
+C:\Users\xshad\Desktop\ParcialDo\PrimerParcialProg\Bll\obj\Debug\netstandard2.0\Bll.AssemblyInfo.cs
+C:\Users\xshad\Desktop\ParcialDo\PrimerParcialProg\Bll\obj\Debug\netstandard2.0\Bll.csproj.CopyComplete
+C:\Users\xshad\Desktop\ParcialDo\PrimerParcialProg\Bll\obj\Debug\netstandard2.0\Bll.dll
+C:\Users\xshad\Desktop\ParcialDo\PrimerParcialProg\Bll\obj\Debug\netstandard2.0\Bll.pdb
