@@ -27,13 +27,13 @@ export class PersonaService {
   }
   get(): Observable<Persona[]> {
     return this.http.get<Persona[]>(this.baseUrl + 'api/Persona').pipe(
-      tap(_ => this.handdleErrorService.log('Datos')),
+      tap(_ => this.handdleErrorService.log('DAL')),
       catchError(this.handdleErrorService.handleError<Persona[]>('Consulta Persona', null))
     );
     
   }
   SumasAyudas(): Observable<number> {
-    return this.http.get<number>(this.baseUrl + 'Api/PersonaAyudas').pipe(
+    return this.http.get<number>(this.baseUrl + 'Api/PersonaAyuda').pipe(
       tap(_ => this.handdleErrorService.log('DAL')),
       catchError(this.handdleErrorService.handleError<number>('Consulta Persona', null))
     );

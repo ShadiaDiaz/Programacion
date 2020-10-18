@@ -1,8 +1,11 @@
-using System;
-using Entity;
+
+
 
 namespace Programa.Models
 {
+
+    using System;
+    using Entity;
     public class PersonaInputModel
     {
         public string Identificacion { get; set; }
@@ -31,7 +34,7 @@ namespace Programa.Models
             Edad = persona.Edad;
             Departamento = persona.Departamento;
             Ciudad = persona.Ciudad;
-            ValorApoyo = persona.ValorApoyo;
+            ValorApoyo= persona.ValorApoyo;
             Modalidad = persona.Modalidad;
             Fecha = persona.Fecha;
         }

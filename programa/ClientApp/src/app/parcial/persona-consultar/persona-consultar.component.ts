@@ -16,6 +16,8 @@ export class PersonaConsultarComponent implements OnInit {
 
   ngOnInit() {
     this.get();    
+    this.SumaAyudas();
+   
   }
   get(){
     this.personaService.get().subscribe(result => {
@@ -25,10 +27,7 @@ export class PersonaConsultarComponent implements OnInit {
    SumaAyudas(){
     this.personaService.SumasAyudas().subscribe(result => {
       this.suma = result.toString();
-    })
-  
+      console.log(this.suma);
+    })}
 
-  
-  
-
-}}
+}
