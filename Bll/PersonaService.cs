@@ -52,7 +52,7 @@ namespace Bll
             }
         }
 
-        public decimal TotalAyudas()
+        public decimal SumaAyudas()
         {
             decimal total= 0;
             _connection.Open();

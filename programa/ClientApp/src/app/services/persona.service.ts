@@ -30,6 +30,13 @@ export class PersonaService {
       tap(_ => this.handdleErrorService.log('Datos')),
       catchError(this.handdleErrorService.handleError<Persona[]>('Consulta Persona', null))
     );
+    
+  }
+  SumasAyudas(): Observable<number> {
+    return this.http.get<number>(this.baseUrl + 'Api/PersonaAyudas').pipe(
+      tap(_ => this.handdleErrorService.log('DAL')),
+      catchError(this.handdleErrorService.handleError<number>('Consulta Persona', null))
+    );
   }
 
 }  

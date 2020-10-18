@@ -20,6 +20,15 @@ export class PersonaConsultarComponent implements OnInit {
   get(){
     this.personaService.get().subscribe(result => {
       this.personas = result;
+      
   })}
+   SumaAyudas(){
+    this.personaService.SumasAyudas().subscribe(result => {
+      this.suma = result.toString();
+    })
+  
 
-}
+  
+  
+
+}}
